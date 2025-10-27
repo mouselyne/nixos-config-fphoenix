@@ -14,6 +14,7 @@
     ## Office
     libreoffice
     gnome-calculator
+    obsidian
 
     ## Utility
     dconf-editor

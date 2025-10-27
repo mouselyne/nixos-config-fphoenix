@@ -1,13 +1,8 @@
-{ pkgs, inputs, ... }:
+{ pkgs, ... }:
 {
-
-  imports = [ inputs.nix-gaming.nixosModules.platformOptimizations ];
-
   programs = {
     steam = {
       enable = true;
-        
-      platformOptimizations.enable = true;
 
       remotePlay.openFirewall = true;
       dedicatedServer.openFirewall = true;

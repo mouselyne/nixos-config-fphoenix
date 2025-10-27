@@ -1,9 +1,6 @@
 { pkgs, inputs, ... }:
 {
-  imports = [ 
-    inputs.nix-gaming.nixosModules.pipewireLowLatency 
-    inputs.nix-gaming.nixosModules.platformOptimizations
-    ];
+  # imports = [ inputs.nix-gaming.nixosModules.default ];
   nix = {
     settings = {
       auto-optimise-store = true;
@@ -33,7 +30,7 @@
 
   environment.systemPackages = with pkgs; [
     wget
-    git
+    git 
   ];
 
   time.timeZone = "America/Edmonton";

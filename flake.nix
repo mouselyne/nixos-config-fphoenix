@@ -10,7 +10,11 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
-    nix-gaming.url = "github:fufexan/nix-gaming";
+    nix-gaming = {
+    url = "github:fufexan/nix-gaming";
+    inputs.nixpkgs.follows = "nixpkgs";
+    };
+    
     nix-flatpak.url = "github:gmodena/nix-flatpak";
 
     nix-index-database = {

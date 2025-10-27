@@ -2,12 +2,11 @@
 {
   home.packages = with pkgs; [
     ## Utils
-    gamemode
-    gamescope
-    winetricks
-    inputs.nix-gaming.packages.${pkgs.system}.wine-ge
-    inputs.nix-gaming.packages.${pkgs.system}.pipewireLowLatency
-    inputs.nix-gaming.packages.${pkgs.system}.platformOptimizations
+    # gamemode
+    # gamescope
+    # winetricks
+    # inputs.nix-gaming.packages.${pkgs.system}.wine-ge
+    lutris
 
     ## Minecraft
     # prismlauncher
