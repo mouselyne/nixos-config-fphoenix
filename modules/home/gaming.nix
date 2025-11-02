@@ -7,6 +7,7 @@
     # winetricks
     # inputs.nix-gaming.packages.${pkgs.system}.wine-ge
     lutris
+    bottles
 
     ## Minecraft
     # prismlauncher
